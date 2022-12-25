@@ -25,7 +25,12 @@
 			<name>Sonatype's Maven repository</name>
 			<url>/http://18.183.122.49:8081/repository/sample-java</url>
 		</repository>
-
+                 <repository>
+			<id>sample-java-snapshot</id>
+			<name>Sonatype's Maven repository</name>
+			<url>/http://18.183.122.49:8081/repository/sample-java</url>
+		</repository>
+	  
 	</repositories>
   
   <build>
